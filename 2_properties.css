@@ -1,0 +1,33 @@
+/* The color property */
+
+p {
+    /* hex */
+    color: #1100ff;
+    /* with opacity, add two digits between 00 and FF */
+    background-color: #00ff0080;
+    /* rgb */
+    color: rgb(100, 0, 127);
+    /* with opacity, add alpha value specifying the opacity */
+    color: rgba(255, 0, 0, 0.3);
+    /* hsl */
+    color: hsl(15, 82%, 56%);
+    /* with opacity, add alpha value */
+    background-color: hsl(120, 100%, 50%, 0.3);
+}
+
+/* font family, font size, font weight, text align */
+
+p {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* height and width */
+
+img {
+    height: auto;
+    width: 500px;
+}

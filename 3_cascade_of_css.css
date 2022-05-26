@@ -1,0 +1,22 @@
+/* specificity */
+
+/* rule 1 */
+.subsection {
+    color: blue;
+}
+/* rule 2 */
+.main .list {
+    color: red;
+}
+/* Rule 2 has more specificity */
+
+/* rule 1 */
+#subsection {
+    color: blue;
+}
+/* rule 2 */
+.main .list {
+    color: red;
+}
+/* rule 1 is more specific because ID beats class */
+
