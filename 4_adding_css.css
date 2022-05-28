@@ -1,0 +1,44 @@
+/* Here is and example of adding CSS to HTML using External CSS */
+
+/* <!-- index.html -->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head> */
+
+/* styles.css */
+
+div {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color:red;
+}
+
+/* An example of Internal CSS */
+
+/* 
+<head>
+  <style>
+    div {
+        color: white;
+        background-color: black;
+    }
+    
+    p {
+        color: red;
+    }
+  </style>
+</head>
+<body>...</body>
+*/
+
+/* Inline CSS */
+
+/*
+<body>
+  <div style="color: white; background-color: black;">...</div>
+</body>
+*/
